@@ -71,7 +71,7 @@ li a:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url("../assets/led.jpg");
+  background-image: url("../assets/Led.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
