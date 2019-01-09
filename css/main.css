@@ -1,0 +1,298 @@
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  background-color:black;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  height: 100px;
+}
+
+header * {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-family:Segoe UI;
+   font-size: 30px;
+}
+
+li a:hover {
+  background-color: #999;
+ 
+}
+
+.nav-wrapper {
+  width: 200px;
+}
+
+.nav-wrapper ul {
+  width: 200px;
+  height: 50px; /* Half the height of the header */
+  display: inline-block;
+  list-style-type: none;
+  background: black;
+}
+
+.second-nav-row {
+  width: 200px !important;
+}
+
+.nav-wrapper ul li {
+  display: inline-block;
+  width: 100px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 16px;
+}
+
+.center-logo {
+  width: 300px;
+  background-color: red;
+  height: 100px;
+  background: black;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("../assets/led.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.first-nav-item {
+  float: left;
+  
+}
+
+.second-nav-item {
+  float: right;
+}
+
+.small-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/Logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.main-body-wrapper {
+  width: 100%;
+}
+
+.first-row {
+  width: 100%;
+  height: 400px;
+}
+
+.second-row {
+  width: 100%;
+  height: 400px;
+}
+
+.quarter-width {
+  width: 25%;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+.half-width {
+  width: 30%;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+.text{
+	font-family: Segoe UI;
+	font-size: 20px;
+	color: white;
+	
+}
+.text2{
+	font-family: Segoe UI;
+	font-size: 20px;
+	color: white;
+	
+}
+.video{
+	width:100px%;
+	clear: both;
+	
+}
+
+#IV{
+ background-image: url("../assets/IV.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Black{
+ background-image: url("../assets/Black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Mothership{
+  background-image: url("../assets/Mothership.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+#Mothership1{
+  background-image: url("../assets/Mothership1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+#iii{
+  background-image: url("../assets/iii.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#iii1{
+  background-image: url("../assets/iii1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#CODA{
+  background-image: url("../assets/CODA.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#CODA1{
+  background-image: url("../assets/CODA1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#live{
+  background-image: url("../assets/live.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  
+}
+#live2{
+  background-image: url("../assets/live2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  
+}
+#live3{
+  background-image: url("../assets/live3.jpg");
+  background-position: 
+  background-repeat: no-repeat;
+  background-size: inherit;
+  
+}
+#live4{
+  background-image: url("../assets/live4.jpg");
+  background-position: 
+  background-repeat: no-repeat;
+  background-size: inherit;
+  
+}
+#live5{
+  background-image: url("../assets/live5.jpg");
+  background-position: 
+  background-repeat: no-repeat;
+  background-size: inherit;
+  
+}
+
+body {
+  color: ffffff;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 150px; 
+  border: 1px solid #999; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #fffff;
+  color: 000000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #008000;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;   
+  border: 1px solid #ccc; 
+  border-radius: 4px; /
+ 
+  margin-top: 30px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+  }
+ canvas{
+	
+	margin:auto;
+
+	display:block;
+	}
+	.nav{
+		display:block;
+		position:absolute;
+		bottom:0;
+		left:50%;
+		transform:translateX(-50%);
+		width:550px;
+		text-align:center;
+		margin:auto;
+		margin-bottom:30px;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size:12px;
+		background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+	color:#fff;
+	}
+	input{
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+</body>
+</html>
